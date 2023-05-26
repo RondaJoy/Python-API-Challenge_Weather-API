@@ -11,8 +11,8 @@ Simply put, the purpose of this project is to answer the question: "What is the 
   * 1 x README file
 
 ##Citations
-What code?  date = pd.to_datetime(date_unix, unit='s').strftime('%Y-%m-%d')
-Which document?  WeatherPy_rjh.ipynb
-Borrowed inspiration from Stack Overflow User, mhhabib
-URL: https://stackoverflow.com/questions/65016116/pandas-converting-a-datetime-y-d-m-hm-to-y-m-d-hm
+What code?  date = pd.to_datetime(date_unix, unit='s').strftime('%Y-%m-%d')  
+Which document?  WeatherPy_rjh.ipynb  
+Borrowed inspiration from Stack Overflow User, mhhabib  
+URL: https://stackoverflow.com/questions/65016116/pandas-converting-a-datetime-y-d-m-hm-to-y-m-d-hm  
 Posted:  11/26/2020 @ 5:11
