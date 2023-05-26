@@ -1,5 +1,6 @@
 # Python-API-Challenge /  Homework 6
-##Purpose
+
+## Purpose
 Simply put, the purpose of this project is to answer the question: "What is the weather like as we approach the equator?"  To put it in different terms, the purpose is the prove that temperature increases as we approach the temperature...using data.
 
 ## Contents
