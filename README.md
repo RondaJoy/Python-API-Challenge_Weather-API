@@ -16,3 +16,10 @@ Which document?  WeatherPy_rjh.ipynb
 Borrowed inspiration from Stack Overflow User, mhhabib  
 URL: https://stackoverflow.com/questions/65016116/pandas-converting-a-datetime-y-d-m-hm-to-y-m-d-hm  
 Posted:  11/26/2020 @ 5:11
+
+1. fruits
+     * apple
+     * banana
+2. vegetables
+     - carrot
+     - broccoli
