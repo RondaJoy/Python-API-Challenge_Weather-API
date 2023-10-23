@@ -3,7 +3,31 @@
 
 ---------------
 #### Purpose:
-Use geoViews, OpenWeatherMap and Geoapify APIs to answer the question: "What is the weather like as we approach the equator?"  To put it in different terms, the purpose is the prove that temperature increases as we approach the temperature...using data.
+Use geoViews, OpenWeatherMap and Geoapify APIs to answer the question: "What is the weather like as we approach the equator?"  In other words, prove that temperature increases as we approach the equator...supported by data.  
+
+Step 1. Start by generating a random list of latitude/longitude combinations.  
+
+![generate coordinates](markdown_images/generate_coords.PNG)
+
+Step 2. Use citypy to assign nearest city to each set of coordinates.  
+
+![assign cities](markdown_images/assign_cities.PNG)
+
+Step 3. Retrieve weather data for each city using OpenWeatherMap API.  
+
+![get weather](markdown_images/fetch_weather.PNG)
+
+Step 4. Generate scatter plots to examine relationship between latitude and temp/humidity/cloud cover/wind. (example below)   
+
+![scatterplot sample](markdown_images/scatterplot_sample.PNG)
+
+Step 5. Perform linear regression for each of the above. (example below)  
+
+![regression sample](markdown_images/regression_sample.PNG)
+
+Step 6. Use Geoapify API and geoViews library to plot the data (i.e. map data)  
+
+![map sample](markdown_images/map_sample.PNG)
 
 --------------
 #### Contents of Repository:
@@ -18,9 +42,9 @@ Use geoViews, OpenWeatherMap and Geoapify APIs to answer the question: "What is 
 
 -------------------
 #### Contributions:  
-What code?  date = pd.to_datetime(date_unix, unit='s').strftime('%Y-%m-%d')  
-Which document?  WeatherPy_rjh.ipynb  
-Borrowed inspiration from Stack Overflow User, mhhabib  
+Code: date = pd.to_datetime(date_unix, unit='s').strftime('%Y-%m-%d')  
+File:  WeatherPy_rjh.ipynb  
+Contributor: Stack Overflow User, mhhabib  
 URL: https://stackoverflow.com/questions/65016116/pandas-converting-a-datetime-y-d-m-hm-to-y-m-d-hm  
 Posted:  11/26/2020 @ 5:11  
 
